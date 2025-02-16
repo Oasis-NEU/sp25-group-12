@@ -1,0 +1,23 @@
+.tasks-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px 30px;
+    width: 20rem;
+    height: 20rem;
+}
+
+.tasks-title {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.tasks-table {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.tasks-table-row {
+    margin: 0;
+}
