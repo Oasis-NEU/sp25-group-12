@@ -1,13 +1,23 @@
-import './tasks.css'
+import './tasks.css';
 
 function Tasks() {
     return (
-        <div class="tasks-container">
-            <h1 class="tasks-title">Tasks</h1>
-            <table class="tasks-table">
-                <tr class="tasks-table-row">first</tr>
-                <tr class="tasks-table-row">second</tr>
-            </table>
+        <div className="tasks-container">
+            <h1 className="tasks-title">Upcoming Tasks</h1>
+            <ul className="tasks-list">
+                <li>
+                    <input type="checkbox" />
+                    <span className="task-name">First</span>
+                    <span className="dots">................</span>
+                    <span className="task-date">3/05/25</span>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <span className="task-name">Second</span>
+                    <span className="dots">................</span>
+                    <span className="task-date">3/15/25</span>
+                </li>
+            </ul>
         </div>
     );
 }

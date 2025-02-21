@@ -1,23 +1,56 @@
 .tasks-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     margin: 30px 30px;
-    width: 20rem;
+    width: 22rem;
     height: 20rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #c9e2a5;
 }
 
 .tasks-title {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 0;
+    color: #514231;
+    margin-bottom: 10px;
 }
 
-.tasks-table {
+.tasks-list {
     text-align: left;
-    font-size: 1.5rem;
+    color: #6d5942;
+    list-style-type: none; /* Removes default bullets */
+    padding-left: 0;
+    font-family: monospace; /* Ensures even spacing */
 }
 
-.tasks-table-row {
-    margin: 0;
+.tasks-list li {
+    font-size: 1rem;
+    margin-bottom: 8px; /* Adds space between items */
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between checkbox and text */
+}
+
+.task-name {
+    flex-grow: 1; /* Makes the name expand while keeping other elements aligned */
+}
+
+.dots {
+    font-family: monospace; /* Ensures the dots are evenly spaced */
+    flex-grow: 2; /* Expands so dots take up space */
+}
+
+.task-date {
+    text-align: right; /* Aligns the date to the right */
+    min-width: 80px; /* Keeps date width consistent */
+}
+
+.tasks-list input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
 }
