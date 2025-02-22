@@ -3,7 +3,7 @@ import './tasks.css';
 function Tasks() {
     return (
         <div className="tasks-container">
-            <h1 className="tasks-title">Upcoming Tasks</h1>
+            <h1 className="tasks-title">To-Do List</h1>
             <ul className="tasks-list">
                 <li>
                     <input type="checkbox" />
