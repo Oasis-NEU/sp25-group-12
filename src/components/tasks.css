@@ -22,9 +22,9 @@
 .tasks-list {
     text-align: left;
     color: #6d5942;
-    list-style-type: none; /* Removes default bullets */
+    list-style-type: none;
     padding-left: 0;
-    font-family: monospace; /* Ensures even spacing */
+    font-family: monospace; 
     max-height: 17rem;
     overflow-y: auto;
     padding-right: 10px;
@@ -48,21 +48,35 @@
     margin-bottom: 8px; /* Adds space between items */
     display: flex;
     align-items: center;
-    gap: 10px; /* Space between checkbox and text */
+    gap: 8px; /* Space between checkbox and text */
 }
 
 .task-name {
-    flex-grow: 1; /* Makes the name expand while keeping other elements aligned */
+    flex: 0 0 auto;
 }
 
 .dots {
     font-family: monospace; /* Ensures the dots are evenly spaced */
-    flex-grow: 2; /* Expands so dots take up space */
+    flex: 1;
+    margin: 0 10 px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.dots::before {
+    content: "...............................................................";
+    color: #6d5942;
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: .8rem;
 }
 
 .task-date {
     text-align: right; /* Aligns the date to the right */
-    min-width: 80px; /* Keeps date width consistent */
+    flex: 0 0 auto;
+    min-width: 70px;
 }
 
 .tasks-list input[type="checkbox"] {

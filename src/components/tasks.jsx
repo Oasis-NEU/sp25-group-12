@@ -8,62 +8,62 @@ function Tasks() {
                 <li>
                     <input type="checkbox" />
                     <span className="task-name">First</span>
-                    <span className="dots">................</span>
+                    <span className="dots"></span>
                     <span className="task-date">3/05/25</span>
                 </li>
                 <li>
                     <input type="checkbox" />
                     <span className="task-name">Second</span>
-                    <span className="dots">................</span>
-                    <span className="task-date">3/15/25</span>
+                    <span className="dots"></span>
+                    <span className="task-date">3/05/25</span>
                 </li>
                 <li>
                     <input type="checkbox" />
                     <span className="task-name">Third</span>
-                    <span className="dots">................</span>
-                    <span className="task-date">3/15/25</span>
+                    <span className="dots"></span>
+                    <span className="task-date">3/05/25</span>
                 </li>
                 <li>
                     <input type="checkbox" />
                     <span className="task-name">Fourth</span>
-                    <span className="dots">................</span>
-                    <span className="task-date">3/15/25</span>
+                    <span className="dots"></span>
+                    <span className="task-date">3/05/25</span>
                 </li>
                 <li>
                     <input type="checkbox" />
-                    <span className="task-name">Second</span>
-                    <span className="dots">................</span>
-                    <span className="task-date">3/15/25</span>
+                    <span className="task-name">One Two Three</span>
+                    <span className="dots"></span>
+                    <span className="task-date">3/05/25</span>
                 </li>
                 <li>
                     <input type="checkbox" />
-                    <span className="task-name">Second</span>
-                    <span className="dots">................</span>
-                    <span className="task-date">3/15/25</span>
+                    <span className="task-name">One Two Three Four</span>
+                    <span className="dots"></span>
+                    <span className="task-date">3/05/25</span>
                 </li>
                 <li>
                     <input type="checkbox" />
-                    <span className="task-name">Second</span>
-                    <span className="dots">................</span>
-                    <span className="task-date">3/15/25</span>
+                    <span className="task-name">Task</span>
+                    <span className="dots"></span>
+                    <span className="task-date">3/05/25</span>
                 </li>
                 <li>
                     <input type="checkbox" />
-                    <span className="task-name">Second</span>
-                    <span className="dots">................</span>
-                    <span className="task-date">3/15/25</span>
+                    <span className="task-name">Task</span>
+                    <span className="dots"></span>
+                    <span className="task-date">3/05/25</span>
                 </li>
                 <li>
                     <input type="checkbox" />
-                    <span className="task-name">Second</span>
-                    <span className="dots">................</span>
-                    <span className="task-date">3/15/25</span>
+                    <span className="task-name">Task</span>
+                    <span className="dots"></span>
+                    <span className="task-date">3/05/25</span>
                 </li>
                 <li>
                     <input type="checkbox" />
-                    <span className="task-name">Second</span>
-                    <span className="dots">................</span>
-                    <span className="task-date">3/15/25</span>
+                    <span className="task-name">Task</span>
+                    <span className="dots"></span>
+                    <span className="task-date">3/05/25</span>
                 </li>
             </ul>
         </div>
