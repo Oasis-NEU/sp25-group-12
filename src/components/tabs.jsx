@@ -16,7 +16,7 @@ function Tabs() {
         <button class="tablinks" onclick="openCity(event, 'Class 3')">Class3</button>
       </div>
       
-      <!-- Tab content -->s
+      <!-- Tab content -->
       <div id="Class 1" class="tabcontent">
         <h3>London</h3>
         <p>London is the capital city of England.</p>
@@ -33,7 +33,7 @@ function Tabs() {
       </div>
       
       
-      /* <div>
+      <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
