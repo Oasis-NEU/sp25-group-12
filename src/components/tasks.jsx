@@ -43,7 +43,7 @@ function Tasks() {
                 </li>
                 <li>
                     <input type="checkbox" />
-                    <span className="task-name">Task</span>
+                    <span className="task-name">One Two Three Four Five</span>
                     <span className="dots"></span>
                     <span className="task-date">3/05/25</span>
                 </li>
