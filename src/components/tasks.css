@@ -5,23 +5,23 @@
     margin: 30px 30px;
     width: 22rem;
     height: 20rem;
-    border: 2px solid black;
+    border: 2px solid #DBA3A4;
     border-radius: 10px;
     padding: 20px;
-    background-color: #f9e9cc;
+    background-color: #FEEBDA;
 }
 
 .tasks-title {
     text-align: center;
     font-size: 2rem;
     margin: 0;
-    color: #514231;
+    color: #DBA3A4;
     margin-bottom: 10px;
 }
 
 .tasks-list {
     text-align: left;
-    color: #6d5942;
+    color: #DBA3A4;
     list-style-type: none;
     padding-left: 0;
     font-family: monospace; 
@@ -69,7 +69,7 @@
 
 .dots::before {
     content: "...............................................................";
-    color: #6d5942;
+    color: #edbebf;
     display: inline-block;
     width: 100%;
     white-space: nowrap;
